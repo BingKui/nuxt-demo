@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "康兵奎 <178974662@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=3333 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "nuxt": {
+    "host": "0.0.0.0",
+    "port": "3333"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "qrcode": "^1.2.2",
+    "vant": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-import": "^1.8.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
